@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omikami Programming Language</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: #4a4a4a;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .nav a {
+            color: #4a4a4a;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: #333;
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+            margin: 0 0 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin: 0 0 20px;
+        }
+
+        .cta-button {
+            background: #ff6600;
+            color: #fff;
+            padding: 15px 30px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .cta-button:hover {
+            background: #cc5200;
+        }
+
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            font-size: 1.1em;
+            margin: 0;
+        }
+
+        .footer {
+            background: #4a4a4a;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+        .feature {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .feature img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+
+        .feature h3 {
+            font-size: 1.5em;
+            margin: 0 0 10px;
+        }
+
+        .feature p {
+            font-size: 1em;
+            margin: 0;
+        }
+
+        @media (min-width: 768px) {
+            .feature {
+                flex-direction: row;
+                text-align: left;
+            }
+
+            .feature img {
+                margin-right: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Omikami</h1>
+            <div class="nav">
+                <a href="#features">Features</a>
+                <a href="#docs">Documentation</a>
+                <a href="#community">Community</a>
+                <a href="#download">Download</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to Omikami</h2>
+            <p>The programming language designed to make coding simple and intuitive.</p>
+            <a href="#download" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section id="features" class="section">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature">
+                <img src="https://via.placeholder.com/100" alt="Feature 1">
+                <div>
+                    <h3>Modern Syntax</h3>
+                    <p>Omikami offers a clean and modern syntax that is easy to learn and use.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/100" alt="Feature 2">
+                <div>
+                    <h3>Powerful Libraries</h3>
+                    <p>Leverage a wide range of powerful libraries to boost your development.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/100" alt="Feature 3">
+                <div>
+                    <h3>Community Support</h3>
+                    <p>Join a vibrant community and get support from fellow developers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="docs" class="section">
+        <div class="container">
+            <h2>Documentation</h2>
+            <p>Explore our comprehensive documentation to get started with Omikami.</p>
+            <a href="#" class="cta-button">Read the Docs</a>
+        </div>
+    </section>
+
+    <section id="community" class="section">
+        <div class="container">
+            <h2>Community</h2>
+            <p>Connect with other Omikami developers, share your projects, and participate in discussions.</p>
+            <a href="#" class="cta-button">Join the Community</a>
+        </div>
+    </section>
+
+    <section id="download" class="section">
+        <div class="container">
+            <h2>Download Omikami</h2>
+            <p>Get the latest version of Omikami and start coding today.</p>
+            <a href="#" class="cta-button">Download Now</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Omikami Programming Language. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
